@@ -1,0 +1,33 @@
+.CreateTodo-Title{
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.TodoCreate-Input{
+    margin-top: 60px;
+    padding-left: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    max-width: calc(600px - 40px);
+    margin-right: 20px;
+}
+
+.TodoCreate-Input:focus{
+    outline-color: #61AFDA;
+}
+
+.TodoCreate-Button{
+    position: relative;
+    width: auto;
+    min-width: 40px;
+    height: auto;
+    min-height: 30px;
+    max-height: 40px;
+    background-color: azure;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}

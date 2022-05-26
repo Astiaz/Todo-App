@@ -1,0 +1,39 @@
+.Skeleton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 420px;
+    height: 60px;
+    margin-top: 10px;
+    padding: 0 20px;
+    background: white;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: preloadAnimation;
+    border-radius: 15px;
+}
+
+.bar, .bar-2{
+    width: 20px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.682);
+}
+
+.bar-2{
+    width: 200px
+}
+
+@keyframes preloadAnimation{
+    0%{
+        background-position: 0px
+    }
+    100%{
+        background-position: 769px
+    }
+}
+

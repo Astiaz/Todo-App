@@ -1,0 +1,41 @@
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    max-height: 100px;
+    width: 420px;
+    max-width: calc(600px - 40px);
+    padding: 0px 20px;
+    margin-top: 10px;
+    background-color: azure;
+    border-radius: 15px;
+}
+
+li p{
+    width: auto;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+.Icon--check{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Icon-Check--active{
+    color: green;
+}
+
+.TodoItem-p--complete{
+    text-decoration: line-through;
+}
+
+.Icon--delete{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Icon--delete:hover{
+    color: red;
+}
